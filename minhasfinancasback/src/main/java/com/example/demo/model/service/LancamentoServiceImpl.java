@@ -91,6 +91,7 @@ public class LancamentoServiceImpl implements LancamentoService {
 
     @Override
     public Optional<Lancamento> obterPorId(Long id) {
+
         return repository.findById(id);
     }
 
